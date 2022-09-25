@@ -57,7 +57,7 @@ const Portfolio = () => {
           {page === 0 ? (
             <div key="page-0" className="flex flex-wrap w-full appear">
               {projects.map((x, i) => (
-                <Card project={x}></Card>
+                <Card key={`project-${i}`} project={x}></Card>
               ))}
             </div>
           ) : page === 1 ? (
