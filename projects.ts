@@ -8,9 +8,34 @@ import Celligence from "images/celligence.png";
 import StudioImage from "images/studio.png";
 import NextShopImage from "images/next-shop.png";
 import PageTransitionShopImage from "images/ecommerce.png";
+import FiverrChatsExtensionImage from "images/fiverr-extension.png";
 import { Project } from "types";
 
 export const projects: Project[] = [
+  {
+    image: FiverrChatsExtensionImage.src,
+    color: "#1DBF73",
+    title: "Fiverr Chats Extension",
+    description:
+      "Fiverr Chats allows you to securely share your Fiverr chats without sharing your account. Chats data are accessed in real time by the help of chrome extension which also is capable of sending messages. As you can understand, you will need to keep your browser open to continue to share chats.",
+    technologies: ["React JS", "Chrome API"],
+    links: {
+      demo: "https://chrome.google.com/webstore/detail/fiverr-chats/cbhkjgjolleaohbpmkbinglohhgaclhc",
+      code: "https://github.com/rromikas/fiverr-chats-extension",
+    },
+  },
+  {
+    image: StudioImage.src,
+    color: "rebeccapurple",
+    title: "Ads Studio",
+    description:
+      "Working for Sofiapulse I created powerfull tool to create customizable ad banners with multiple frames, where you can add images, videos, chats, swipable galleries, flippers and other cool components. Try it out!",
+    technologies: ["Preact", "Typescript", "TailwindCSS"],
+    links: {
+      demo: "https://studio-editor.netlify.app",
+      code: "https://github.com/rromikas/studio",
+    },
+  },
   {
     image: PageTransitionShopImage.src,
     color: "#F7088C",
@@ -35,18 +60,7 @@ export const projects: Project[] = [
       code: "https://github.com/rromikas/next-shop",
     },
   },
-  {
-    image: StudioImage.src,
-    color: "rebeccapurple",
-    title: "Ads Studio",
-    description:
-      "Working for Sofiapulse I created powerfull tool to create customizable ad banners with multiple frames, where you can add images, videos, chats, swipable galleries, flippers and other cool components. Try it out!",
-    technologies: ["Preact", "Typescript", "TailwindCSS"],
-    links: {
-      demo: "https://sofia-studio.netlify.app",
-      code: "https://github.com/rromikas/studio",
-    },
-  },
+
   {
     image: Celligence.src,
     color: "#03C6E2",
